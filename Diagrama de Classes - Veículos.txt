@@ -1,0 +1,26 @@
+													Veículo
+
+													Marca
+												TipoCombustível
+													Potência
+													Peso
+													Placa
+													Preço
+													Câmbio
+													Autonomia
+													Ano de Fabricação
+													Cor
+													NºChassi
+
+
+
+
+
+
+					Carro                                                                                             Caminhão
+				Nº passageiros															Tipo de Carga
+				Carroceria																Altura
+				Número de portas															Nº de Rodas
+				Capacidade do Porta-Malas													Capacidade
+																					Tipo de Cabines
+					
