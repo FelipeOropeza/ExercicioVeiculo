@@ -10,30 +10,34 @@ using System.Windows.Forms;
 
 namespace ExercicioVeiculos
 {
-    public partial class frmCarro : Form
+    public partial class frmCaminhao : Form
     {
-        public frmCarro()
+        public frmCaminhao()
         {
             InitializeComponent();
-        }
-        private void btnVoltar_Click(object sender, EventArgs e)
-        {
-            frmMenu menu = new frmMenu();
-            this.Hide();
-            menu.Show();
-        }
-
-        // atribuindo a data se3lecionada a caixa de texto
-        private void Calendario1_DateChanged(object sender, DateRangeEventArgs e)
-        {
-            txtData.Text = Calendario1.SelectionStart.ToShortDateString();
-            Calendario1.Hide();
-            
         }
 
         private void btnCalendario_Click(object sender, EventArgs e)
         {
             Calendario1.Visible = true;
+        }
+
+        private void frmCaminhao_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Calendario1_DateChanged(object sender, DateRangeEventArgs e)
+        {
+            txtData.Text = Calendario1.SelectionStart.ToShortDateString();
+            Calendario1.Hide();
+        }
+
+        private void btnVoltar_Click(object sender, EventArgs e)
+        {
+            frmMenu menu = new frmMenu();
+            this.Hide();
+            menu.Show();
         }
     }
 }

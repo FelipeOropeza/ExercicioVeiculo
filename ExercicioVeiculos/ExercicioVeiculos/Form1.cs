@@ -10,11 +10,31 @@ using System.Windows.Forms;
 
 namespace ExercicioVeiculos
 {
-    public partial class frmCadastro : Form
+    public partial class frmMenu : Form
     {
-        public frmCadastro()
+        public frmMenu()
         {
             InitializeComponent();
+        }
+
+        private void btnSair_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnCarro_Click(object sender, EventArgs e)
+        {
+            frmCarro carro = new frmCarro();
+            this.Hide();
+            carro.Show();
+        }
+
+        private void btnCaminhao_Click(object sender, EventArgs e)
+        {
+            frmCaminhao caminhao = new frmCaminhao();
+            this.Hide();
+            caminhao.Show();
+
         }
     }
 }

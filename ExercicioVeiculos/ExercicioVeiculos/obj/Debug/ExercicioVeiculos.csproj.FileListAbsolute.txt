@@ -1,0 +1,13 @@
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.exe.config
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.exe
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.pdb
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.AssemblyReference.cache
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.SuggestedBindingRedirects.cache
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmMenu.resources
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmCarro.resources
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmCaminhao.resources
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.Properties.Resources.resources
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.GenerateResource.cache
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.CoreCompileInputs.cache
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.exe
+C:\Users\2etimds\Documents\Exercícios-VisualStudio\VisualStudio\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.pdb

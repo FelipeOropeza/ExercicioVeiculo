@@ -1,6 +1,6 @@
 ﻿namespace ExercicioVeiculos
 {
-    partial class frmCadastro
+    partial class frmMenu
     {
         /// <summary>
         /// Required designer variable.
@@ -29,62 +29,65 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.carroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.caminãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCarro = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnCaminhao = new System.Windows.Forms.ToolStripMenuItem();
+            this.btnSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sairToolStripMenuItem,
+            this.btnSair,
             this.cadastrosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 29);
+            this.menuStrip1.Size = new System.Drawing.Size(364, 29);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(49, 25);
-            this.sairToolStripMenuItem.Text = "Sair";
             // 
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.carroToolStripMenuItem,
-            this.caminãoToolStripMenuItem});
+            this.btnCarro,
+            this.btnCaminhao});
             this.cadastrosToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cadastrosToolStripMenuItem.Name = "cadastrosToolStripMenuItem";
             this.cadastrosToolStripMenuItem.Size = new System.Drawing.Size(91, 25);
             this.cadastrosToolStripMenuItem.Text = "Cadastros";
             // 
-            // carroToolStripMenuItem
+            // btnCarro
             // 
-            this.carroToolStripMenuItem.Name = "carroToolStripMenuItem";
-            this.carroToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.carroToolStripMenuItem.Text = "Carro";
+            this.btnCarro.Name = "btnCarro";
+            this.btnCarro.Size = new System.Drawing.Size(180, 26);
+            this.btnCarro.Text = "Carro";
+            this.btnCarro.Click += new System.EventHandler(this.btnCarro_Click);
             // 
-            // caminãoToolStripMenuItem
+            // btnCaminhao
             // 
-            this.caminãoToolStripMenuItem.Name = "caminãoToolStripMenuItem";
-            this.caminãoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
-            this.caminãoToolStripMenuItem.Text = "Caminão";
+            this.btnCaminhao.Name = "btnCaminhao";
+            this.btnCaminhao.Size = new System.Drawing.Size(180, 26);
+            this.btnCaminhao.Text = "Caminhão";
+            this.btnCaminhao.Click += new System.EventHandler(this.btnCaminhao_Click);
             // 
-            // frmCadastro
+            // btnSair
+            // 
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(49, 25);
+            this.btnSair.Text = "Sair";
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
+            // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(364, 130);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "frmCadastro";
-            this.Text = "Tela de Cadastro";
+            this.Name = "frmMenu";
+            this.Text = "MenuPrincipal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
@@ -95,10 +98,10 @@
         #endregion
 
         private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastrosToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem carroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem caminãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem btnCarro;
+        private System.Windows.Forms.ToolStripMenuItem btnCaminhao;
+        private System.Windows.Forms.ToolStripMenuItem btnSair;
     }
 }
 
