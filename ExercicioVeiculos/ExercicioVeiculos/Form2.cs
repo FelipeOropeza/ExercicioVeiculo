@@ -23,7 +23,7 @@ namespace ExercicioVeiculos
             menu.Show();
         }
 
-        // atribuindo a data se3lecionada a caixa de texto
+        // atribuindo a data selecionada a caixa de texto
         private void Calendario1_DateChanged(object sender, DateRangeEventArgs e)
         {
             txtData.Text = Calendario1.SelectionStart.ToShortDateString();
