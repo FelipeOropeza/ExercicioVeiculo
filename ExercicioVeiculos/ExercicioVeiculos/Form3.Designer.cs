@@ -63,6 +63,8 @@
             this.Calendario1 = new System.Windows.Forms.MonthCalendar();
             this.btnCalendario = new System.Windows.Forms.Button();
             this.txtData = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.txtPreco = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtCar
@@ -369,11 +371,30 @@
             this.txtData.Size = new System.Drawing.Size(100, 20);
             this.txtData.TabIndex = 67;
             // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(85, 299);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(39, 15);
+            this.label16.TabIndex = 68;
+            this.label16.Text = "Preço";
+            // 
+            // txtPreco
+            // 
+            this.txtPreco.Location = new System.Drawing.Point(161, 293);
+            this.txtPreco.Name = "txtPreco";
+            this.txtPreco.Size = new System.Drawing.Size(100, 20);
+            this.txtPreco.TabIndex = 69;
+            // 
             // frmCaminhao
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtPreco);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.btnCalendario);
             this.Controls.Add(this.Calendario1);
@@ -454,5 +475,7 @@
         private System.Windows.Forms.MonthCalendar Calendario1;
         private System.Windows.Forms.Button btnCalendario;
         private System.Windows.Forms.TextBox txtData;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txtPreco;
     }
 }

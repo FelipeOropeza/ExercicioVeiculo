@@ -93,7 +93,7 @@ namespace ExercicioVeiculos
         public String Datafab
         {
             get { return datafab; }
-            set { Datafab = value; }
+            set { datafab = value; }
         }
         public String Cor
         {

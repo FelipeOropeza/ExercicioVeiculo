@@ -31,12 +31,10 @@
             this.txtData = new System.Windows.Forms.TextBox();
             this.btnCalendario = new System.Windows.Forms.Button();
             this.Calendario1 = new System.Windows.Forms.MonthCalendar();
-            this.txtNumRodas = new System.Windows.Forms.TextBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.txtAltura = new System.Windows.Forms.TextBox();
-            this.txtTipoCabine = new System.Windows.Forms.TextBox();
-            this.txtCapacidade = new System.Windows.Forms.TextBox();
-            this.txtTipoCarga = new System.Windows.Forms.TextBox();
+            this.txtCarroce = new System.Windows.Forms.TextBox();
+            this.txtCapPort = new System.Windows.Forms.TextBox();
+            this.txtNumPort = new System.Windows.Forms.TextBox();
+            this.txtNumPassa = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -63,6 +61,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtPreco = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtData
@@ -84,56 +84,39 @@
             // 
             // Calendario1
             // 
-            this.Calendario1.Location = new System.Drawing.Point(532, 22);
+            this.Calendario1.Location = new System.Drawing.Point(555, 18);
             this.Calendario1.Name = "Calendario1";
             this.Calendario1.TabIndex = 100;
             this.Calendario1.Visible = false;
             this.Calendario1.DateChanged += new System.Windows.Forms.DateRangeEventHandler(this.Calendario1_DateChanged);
             // 
-            // txtNumRodas
+            // txtCarroce
             // 
-            this.txtNumRodas.Location = new System.Drawing.Point(609, 282);
-            this.txtNumRodas.Name = "txtNumRodas";
-            this.txtNumRodas.Size = new System.Drawing.Size(100, 20);
-            this.txtNumRodas.TabIndex = 99;
+            this.txtCarroce.Location = new System.Drawing.Point(319, 241);
+            this.txtCarroce.Name = "txtCarroce";
+            this.txtCarroce.Size = new System.Drawing.Size(100, 20);
+            this.txtCarroce.TabIndex = 97;
             // 
-            // label15
+            // txtCapPort
             // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(485, 283);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(108, 15);
-            this.label15.TabIndex = 98;
-            this.label15.Text = "Número de Rodas";
+            this.txtCapPort.Location = new System.Drawing.Point(356, 282);
+            this.txtCapPort.Name = "txtCapPort";
+            this.txtCapPort.Size = new System.Drawing.Size(100, 20);
+            this.txtCapPort.TabIndex = 96;
             // 
-            // txtAltura
+            // txtNumPort
             // 
-            this.txtAltura.Location = new System.Drawing.Point(319, 241);
-            this.txtAltura.Name = "txtAltura";
-            this.txtAltura.Size = new System.Drawing.Size(100, 20);
-            this.txtAltura.TabIndex = 97;
+            this.txtNumPort.Location = new System.Drawing.Point(131, 282);
+            this.txtNumPort.Name = "txtNumPort";
+            this.txtNumPort.Size = new System.Drawing.Size(100, 20);
+            this.txtNumPort.TabIndex = 95;
             // 
-            // txtTipoCabine
+            // txtNumPassa
             // 
-            this.txtTipoCabine.Location = new System.Drawing.Point(356, 282);
-            this.txtTipoCabine.Name = "txtTipoCabine";
-            this.txtTipoCabine.Size = new System.Drawing.Size(100, 20);
-            this.txtTipoCabine.TabIndex = 96;
-            // 
-            // txtCapacidade
-            // 
-            this.txtCapacidade.Location = new System.Drawing.Point(131, 282);
-            this.txtCapacidade.Name = "txtCapacidade";
-            this.txtCapacidade.Size = new System.Drawing.Size(100, 20);
-            this.txtCapacidade.TabIndex = 95;
-            // 
-            // txtTipoCarga
-            // 
-            this.txtTipoCarga.Location = new System.Drawing.Point(140, 241);
-            this.txtTipoCarga.Name = "txtTipoCarga";
-            this.txtTipoCarga.Size = new System.Drawing.Size(100, 20);
-            this.txtTipoCarga.TabIndex = 94;
+            this.txtNumPassa.Location = new System.Drawing.Point(140, 241);
+            this.txtNumPassa.Name = "txtNumPassa";
+            this.txtNumPassa.Size = new System.Drawing.Size(100, 20);
+            this.txtNumPassa.TabIndex = 94;
             // 
             // label11
             // 
@@ -141,9 +124,9 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(42, 242);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(84, 15);
+            this.label11.Size = new System.Drawing.Size(140, 15);
             this.label11.TabIndex = 93;
-            this.label11.Text = "Tipo de Carga";
+            this.label11.Text = "Numero de Passageiros";
             // 
             // label14
             // 
@@ -151,9 +134,9 @@
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(254, 283);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(96, 15);
+            this.label14.Size = new System.Drawing.Size(160, 15);
             this.label14.TabIndex = 92;
-            this.label14.Text = "Tipo de Cabines";
+            this.label14.Text = "Capacidade do Porta-Malas";
             // 
             // label13
             // 
@@ -161,9 +144,9 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(42, 283);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(73, 15);
+            this.label13.Size = new System.Drawing.Size(107, 15);
             this.label13.TabIndex = 91;
-            this.label13.Text = "Capacidade";
+            this.label13.Text = "Numero de Portas";
             // 
             // label12
             // 
@@ -171,9 +154,9 @@
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(269, 242);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(38, 15);
+            this.label12.Size = new System.Drawing.Size(64, 15);
             this.label12.TabIndex = 90;
-            this.label12.Text = "Altura";
+            this.label12.Text = "Carroceria";
             // 
             // txtPlaca
             // 
@@ -258,6 +241,7 @@
             this.btnExibir.TabIndex = 79;
             this.btnExibir.Text = "Exibir";
             this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
             // 
             // btnCadastrar
             // 
@@ -268,6 +252,7 @@
             this.btnCadastrar.TabIndex = 78;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label10
             // 
@@ -369,20 +354,37 @@
             this.label1.TabIndex = 68;
             this.label1.Text = "Marca";
             // 
+            // txtPreco
+            // 
+            this.txtPreco.Location = new System.Drawing.Point(131, 323);
+            this.txtPreco.Name = "txtPreco";
+            this.txtPreco.Size = new System.Drawing.Size(100, 20);
+            this.txtPreco.TabIndex = 104;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(55, 329);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(39, 15);
+            this.label16.TabIndex = 103;
+            this.label16.Text = "Preço";
+            // 
             // frmCarro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtPreco);
+            this.Controls.Add(this.label16);
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.btnCalendario);
             this.Controls.Add(this.Calendario1);
-            this.Controls.Add(this.txtNumRodas);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtAltura);
-            this.Controls.Add(this.txtTipoCabine);
-            this.Controls.Add(this.txtCapacidade);
-            this.Controls.Add(this.txtTipoCarga);
+            this.Controls.Add(this.txtCarroce);
+            this.Controls.Add(this.txtCapPort);
+            this.Controls.Add(this.txtNumPort);
+            this.Controls.Add(this.txtNumPassa);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
@@ -421,12 +423,10 @@
         private System.Windows.Forms.TextBox txtData;
         private System.Windows.Forms.Button btnCalendario;
         private System.Windows.Forms.MonthCalendar Calendario1;
-        private System.Windows.Forms.TextBox txtNumRodas;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtAltura;
-        private System.Windows.Forms.TextBox txtTipoCabine;
-        private System.Windows.Forms.TextBox txtCapacidade;
-        private System.Windows.Forms.TextBox txtTipoCarga;
+        private System.Windows.Forms.TextBox txtCarroce;
+        private System.Windows.Forms.TextBox txtCapPort;
+        private System.Windows.Forms.TextBox txtNumPort;
+        private System.Windows.Forms.TextBox txtNumPassa;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
@@ -453,5 +453,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtPreco;
+        private System.Windows.Forms.Label label16;
     }
 }

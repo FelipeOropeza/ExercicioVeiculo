@@ -62,7 +62,8 @@ namespace ExercicioVeiculos
         public override string ImprimeDados()
         {
             String s = String.Empty;
-            s = String.Concat(this.carroce);
+            s = String.Concat(this.Marca, "", this.TipoCombu, "", this.Poten, "", this.Peso, "", this.Placa, "", this.Preco, "", this.Cambio,
+                this.Auto,"", this.Datafab, "", this.Cor, "", this.Chassi, "", this.NumPassa, "", this.Carroce, "", this.NumPort, "", this.CapaPort);
             return s;
         }
     }
