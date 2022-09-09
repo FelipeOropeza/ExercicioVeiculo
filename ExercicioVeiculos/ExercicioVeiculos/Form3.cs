@@ -63,6 +63,7 @@ namespace ExercicioVeiculos
             txtNumRod.Clear();
             txtCap.Clear();
             txtCabi.Clear();
+            //teste
         }
 
         private void btnExibir_Click(object sender, EventArgs e)
