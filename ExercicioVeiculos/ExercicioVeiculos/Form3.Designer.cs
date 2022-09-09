@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCaminhao));
             this.txtAlt = new System.Windows.Forms.TextBox();
             this.txtCap = new System.Windows.Forms.TextBox();
             this.txtNumRod = new System.Windows.Forms.TextBox();
@@ -69,288 +70,309 @@
             // 
             // txtAlt
             // 
-            this.txtAlt.Location = new System.Drawing.Point(362, 220);
+            this.txtAlt.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAlt.Location = new System.Drawing.Point(399, 201);
             this.txtAlt.Name = "txtAlt";
-            this.txtAlt.Size = new System.Drawing.Size(100, 20);
+            this.txtAlt.Size = new System.Drawing.Size(100, 25);
             this.txtAlt.TabIndex = 62;
             // 
             // txtCap
             // 
-            this.txtCap.Location = new System.Drawing.Point(399, 261);
+            this.txtCap.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCap.Location = new System.Drawing.Point(399, 239);
             this.txtCap.Name = "txtCap";
-            this.txtCap.Size = new System.Drawing.Size(100, 20);
+            this.txtCap.Size = new System.Drawing.Size(100, 25);
             this.txtCap.TabIndex = 61;
             // 
             // txtNumRod
             // 
-            this.txtNumRod.Location = new System.Drawing.Point(174, 261);
+            this.txtNumRod.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNumRod.Location = new System.Drawing.Point(124, 239);
             this.txtNumRod.Name = "txtNumRod";
-            this.txtNumRod.Size = new System.Drawing.Size(100, 20);
+            this.txtNumRod.Size = new System.Drawing.Size(100, 25);
             this.txtNumRod.TabIndex = 60;
             // 
             // txtTipoCarg
             // 
-            this.txtTipoCarg.Location = new System.Drawing.Point(183, 220);
+            this.txtTipoCarg.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTipoCarg.Location = new System.Drawing.Point(124, 203);
             this.txtTipoCarg.Name = "txtTipoCarg";
-            this.txtTipoCarg.Size = new System.Drawing.Size(100, 20);
+            this.txtTipoCarg.Size = new System.Drawing.Size(100, 25);
             this.txtTipoCarg.TabIndex = 59;
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(85, 221);
+            this.label11.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(26, 206);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(84, 15);
+            this.label11.Size = new System.Drawing.Size(92, 17);
             this.label11.TabIndex = 58;
             this.label11.Text = "Tipo de Carga";
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label14.Location = new System.Drawing.Point(297, 262);
+            this.label14.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(316, 242);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(73, 15);
+            this.label14.Size = new System.Drawing.Size(77, 17);
             this.label14.TabIndex = 57;
             this.label14.Text = "Capacidade";
             // 
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(85, 262);
+            this.label13.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(0, 242);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(108, 15);
+            this.label13.Size = new System.Drawing.Size(118, 17);
             this.label13.TabIndex = 56;
             this.label13.Text = "Numero de Rodas";
             // 
             // Altura
             // 
             this.Altura.AutoSize = true;
-            this.Altura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Altura.Location = new System.Drawing.Point(312, 221);
+            this.Altura.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Altura.Location = new System.Drawing.Point(348, 206);
             this.Altura.Name = "Altura";
-            this.Altura.Size = new System.Drawing.Size(38, 15);
+            this.Altura.Size = new System.Drawing.Size(45, 17);
             this.Altura.TabIndex = 55;
             this.Altura.Text = "Altura";
             // 
             // txtPlaca
             // 
-            this.txtPlaca.Location = new System.Drawing.Point(598, 185);
+            this.txtPlaca.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPlaca.Location = new System.Drawing.Point(399, 279);
             this.txtPlaca.Name = "txtPlaca";
-            this.txtPlaca.Size = new System.Drawing.Size(100, 20);
+            this.txtPlaca.Size = new System.Drawing.Size(100, 25);
             this.txtPlaca.TabIndex = 54;
             // 
             // txtCor
             // 
-            this.txtCor.Location = new System.Drawing.Point(119, 177);
+            this.txtCor.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCor.Location = new System.Drawing.Point(124, 163);
             this.txtCor.Name = "txtCor";
-            this.txtCor.Size = new System.Drawing.Size(100, 20);
+            this.txtCor.Size = new System.Drawing.Size(100, 25);
             this.txtCor.TabIndex = 53;
             // 
             // txtChassi
             // 
-            this.txtChassi.Location = new System.Drawing.Point(406, 125);
+            this.txtChassi.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtChassi.Location = new System.Drawing.Point(399, 122);
             this.txtChassi.Name = "txtChassi";
-            this.txtChassi.Size = new System.Drawing.Size(100, 20);
+            this.txtChassi.Size = new System.Drawing.Size(100, 25);
             this.txtChassi.TabIndex = 51;
             // 
             // txtCamb
             // 
-            this.txtCamb.Location = new System.Drawing.Point(145, 125);
+            this.txtCamb.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCamb.Location = new System.Drawing.Point(124, 122);
             this.txtCamb.Name = "txtCamb";
-            this.txtCamb.Size = new System.Drawing.Size(100, 20);
+            this.txtCamb.Size = new System.Drawing.Size(100, 25);
             this.txtCamb.TabIndex = 50;
             // 
             // txtComb
             // 
-            this.txtComb.Location = new System.Drawing.Point(439, 36);
+            this.txtComb.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtComb.Location = new System.Drawing.Point(399, 33);
             this.txtComb.Name = "txtComb";
-            this.txtComb.Size = new System.Drawing.Size(100, 20);
+            this.txtComb.Size = new System.Drawing.Size(100, 25);
             this.txtComb.TabIndex = 49;
             // 
             // txtPeso
             // 
-            this.txtPeso.Location = new System.Drawing.Point(128, 76);
+            this.txtPeso.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPeso.Location = new System.Drawing.Point(124, 77);
             this.txtPeso.Name = "txtPeso";
-            this.txtPeso.Size = new System.Drawing.Size(100, 20);
+            this.txtPeso.Size = new System.Drawing.Size(100, 25);
             this.txtPeso.TabIndex = 48;
             // 
             // txtAuto
             // 
-            this.txtAuto.Location = new System.Drawing.Point(517, 77);
+            this.txtAuto.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAuto.Location = new System.Drawing.Point(665, 72);
             this.txtAuto.Name = "txtAuto";
-            this.txtAuto.Size = new System.Drawing.Size(100, 20);
+            this.txtAuto.Size = new System.Drawing.Size(100, 25);
             this.txtAuto.TabIndex = 47;
             // 
             // txtPot
             // 
-            this.txtPot.Location = new System.Drawing.Point(300, 77);
+            this.txtPot.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPot.Location = new System.Drawing.Point(399, 77);
             this.txtPot.Name = "txtPot";
-            this.txtPot.Size = new System.Drawing.Size(100, 20);
+            this.txtPot.Size = new System.Drawing.Size(100, 25);
             this.txtPot.TabIndex = 46;
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(136, 36);
+            this.txtMarca.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtMarca.Location = new System.Drawing.Point(124, 33);
             this.txtMarca.Name = "txtMarca";
-            this.txtMarca.Size = new System.Drawing.Size(147, 20);
+            this.txtMarca.Size = new System.Drawing.Size(100, 25);
             this.txtMarca.TabIndex = 45;
             // 
             // btnVoltar
             // 
-            this.btnVoltar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVoltar.Location = new System.Drawing.Point(523, 371);
+            this.btnVoltar.BackColor = System.Drawing.Color.FloralWhite;
+            this.btnVoltar.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVoltar.ForeColor = System.Drawing.Color.Teal;
+            this.btnVoltar.Location = new System.Drawing.Point(559, 361);
             this.btnVoltar.Name = "btnVoltar";
             this.btnVoltar.Size = new System.Drawing.Size(94, 36);
             this.btnVoltar.TabIndex = 44;
             this.btnVoltar.Text = "Voltar";
-            this.btnVoltar.UseVisualStyleBackColor = true;
+            this.btnVoltar.UseVisualStyleBackColor = false;
             this.btnVoltar.Click += new System.EventHandler(this.btnVoltar_Click);
             // 
             // btnExibir
             // 
-            this.btnExibir.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnExibir.Location = new System.Drawing.Point(315, 371);
+            this.btnExibir.BackColor = System.Drawing.Color.FloralWhite;
+            this.btnExibir.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExibir.ForeColor = System.Drawing.Color.Teal;
+            this.btnExibir.Location = new System.Drawing.Point(351, 361);
             this.btnExibir.Name = "btnExibir";
             this.btnExibir.Size = new System.Drawing.Size(94, 36);
             this.btnExibir.TabIndex = 43;
             this.btnExibir.Text = "Exibir";
-            this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.UseVisualStyleBackColor = false;
             this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCadastrar.Location = new System.Drawing.Point(107, 371);
+            this.btnCadastrar.BackColor = System.Drawing.Color.FloralWhite;
+            this.btnCadastrar.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCadastrar.ForeColor = System.Drawing.Color.Teal;
+            this.btnCadastrar.Location = new System.Drawing.Point(143, 361);
             this.btnCadastrar.Name = "btnCadastrar";
             this.btnCadastrar.Size = new System.Drawing.Size(94, 36);
             this.btnCadastrar.TabIndex = 42;
             this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(85, 178);
+            this.label10.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(89, 166);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(28, 16);
+            this.label10.Size = new System.Drawing.Size(29, 17);
             this.label10.TabIndex = 41;
             this.label10.Text = "Cor";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(284, 126);
+            this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(275, 125);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(116, 16);
+            this.label9.Size = new System.Drawing.Size(118, 17);
             this.label9.TabIndex = 40;
             this.label9.Text = "Numero do chassi";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(248, 181);
+            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(290, 163);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 16);
+            this.label8.Size = new System.Drawing.Size(103, 17);
             this.label8.TabIndex = 39;
             this.label8.Text = "Data Fabricação";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(435, 78);
+            this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(583, 77);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(71, 16);
+            this.label7.Size = new System.Drawing.Size(76, 17);
             this.label7.TabIndex = 38;
             this.label7.Text = "Autonomia";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(85, 126);
+            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(64, 125);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 16);
+            this.label6.Size = new System.Drawing.Size(54, 17);
             this.label6.TabIndex = 37;
             this.label6.Text = "Câmbio";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(550, 185);
+            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(354, 282);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(42, 16);
+            this.label5.Size = new System.Drawing.Size(39, 17);
             this.label5.TabIndex = 36;
             this.label5.Text = "Placa";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(85, 77);
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(81, 80);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(39, 16);
+            this.label4.Size = new System.Drawing.Size(37, 17);
             this.label4.TabIndex = 35;
             this.label4.Text = "Peso";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(234, 77);
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(333, 80);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 16);
+            this.label3.Size = new System.Drawing.Size(60, 17);
             this.label3.TabIndex = 34;
             this.label3.Text = "Potência";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(289, 36);
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(261, 36);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 16);
+            this.label2.Size = new System.Drawing.Size(132, 17);
             this.label2.TabIndex = 33;
             this.label2.Text = "Tipo de Combustivel";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(85, 36);
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(73, 36);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(45, 16);
+            this.label1.Size = new System.Drawing.Size(45, 17);
             this.label1.TabIndex = 32;
             this.label1.Text = "Marca";
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(528, 262);
+            this.label15.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(561, 36);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(90, 15);
+            this.label15.Size = new System.Drawing.Size(98, 17);
             this.label15.TabIndex = 63;
             this.label15.Text = "Tipo de Cabine";
             // 
             // txtCabi
             // 
-            this.txtCabi.Location = new System.Drawing.Point(652, 261);
+            this.txtCabi.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCabi.Location = new System.Drawing.Point(665, 33);
             this.txtCabi.Name = "txtCabi";
-            this.txtCabi.Size = new System.Drawing.Size(100, 20);
+            this.txtCabi.Size = new System.Drawing.Size(100, 25);
             this.txtCabi.TabIndex = 64;
             // 
             // Calendario1
             // 
-            this.Calendario1.Location = new System.Drawing.Point(572, -3);
+            this.Calendario1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Calendario1.Location = new System.Drawing.Point(538, 125);
             this.Calendario1.Name = "Calendario1";
             this.Calendario1.TabIndex = 65;
             this.Calendario1.Visible = false;
@@ -358,35 +380,40 @@
             // 
             // btnCalendario
             // 
-            this.btnCalendario.Location = new System.Drawing.Point(464, 181);
+            this.btnCalendario.BackColor = System.Drawing.Color.FloralWhite;
+            this.btnCalendario.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCalendario.ForeColor = System.Drawing.Color.Teal;
+            this.btnCalendario.Location = new System.Drawing.Point(505, 157);
             this.btnCalendario.Name = "btnCalendario";
-            this.btnCalendario.Size = new System.Drawing.Size(75, 23);
+            this.btnCalendario.Size = new System.Drawing.Size(87, 29);
             this.btnCalendario.TabIndex = 66;
             this.btnCalendario.Text = "Selecionar";
-            this.btnCalendario.UseVisualStyleBackColor = true;
+            this.btnCalendario.UseVisualStyleBackColor = false;
             this.btnCalendario.Click += new System.EventHandler(this.btnCalendario_Click);
             // 
             // txtData
             // 
-            this.txtData.Location = new System.Drawing.Point(358, 181);
+            this.txtData.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtData.Location = new System.Drawing.Point(399, 160);
             this.txtData.Name = "txtData";
-            this.txtData.Size = new System.Drawing.Size(100, 20);
+            this.txtData.Size = new System.Drawing.Size(100, 25);
             this.txtData.TabIndex = 67;
             // 
             // txtPreco
             // 
-            this.txtPreco.Location = new System.Drawing.Point(174, 300);
+            this.txtPreco.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPreco.Location = new System.Drawing.Point(124, 279);
             this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Size = new System.Drawing.Size(100, 20);
+            this.txtPreco.Size = new System.Drawing.Size(100, 25);
             this.txtPreco.TabIndex = 106;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(98, 306);
+            this.label16.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(76, 282);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(39, 15);
+            this.label16.Size = new System.Drawing.Size(42, 17);
             this.label16.TabIndex = 105;
             this.label16.Text = "Preço";
             // 
@@ -394,7 +421,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.ClientSize = new System.Drawing.Size(800, 438);
             this.Controls.Add(this.txtPreco);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.txtData);
@@ -432,7 +460,9 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmCaminhao";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Caminhão";
             this.Load += new System.EventHandler(this.frmCaminhao_Load);
             this.ResumeLayout(false);
