@@ -72,8 +72,8 @@ namespace ExercicioVeiculos
         public override string ImprimeDados()
         {
             String s = String.Empty;
-            s = String.Concat(this.Marca, "", this.TipoCombu, "", this.Poten, "", this.Peso, "", this.Placa, "", this.Preco, "", this.Cambio,
-                this.Auto, "", this.Datafab, "", this.Cor, "", this.Chassi, "", this.Tipocarga, "", this.Altura, "", this.Numrodas,"", this.Capacidade, "", this.Tipocabines);
+            s = String.Concat("Marca: " + this.Marca, "\n", "Tipo do Combustível: " + this.TipoCombu, "\n", "Potência: " + this.Poten, "\n", "Peso: " + this.Peso, "\n", "Placa: " + this.Placa, "\n", "Preço: R$" + this.Preco, "\n", "Câmbio: " + this.Cambio,
+                "Autonomia: " + this.Auto, "\n", "Data de Fabricação: " + this.Datafab, "\n", "Cor: " + this.Cor, "\n", "Chassi: " + this.Chassi, "\n", "Tipo de Carga: " + this.Tipocarga, "\n", "Altura: " + this.Altura, "\n", "Número de Rodas: " + this.Numrodas, "\n", "Capacidade: " + this.Capacidade, "\n", "Tipo de Cabine: " + this.Tipocabines);
             return s;
         }
     }

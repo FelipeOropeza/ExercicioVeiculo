@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtCar = new System.Windows.Forms.TextBox();
-            this.txtCapaPor = new System.Windows.Forms.TextBox();
-            this.txtNumPortas = new System.Windows.Forms.TextBox();
-            this.txtNumPassa = new System.Windows.Forms.TextBox();
+            this.txtAlt = new System.Windows.Forms.TextBox();
+            this.txtCap = new System.Windows.Forms.TextBox();
+            this.txtNumRod = new System.Windows.Forms.TextBox();
+            this.txtTipoCarg = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
+            this.Altura = new System.Windows.Forms.Label();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.txtCor = new System.Windows.Forms.TextBox();
             this.txtChassi = new System.Windows.Forms.TextBox();
@@ -59,41 +59,41 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.txtNumRodas = new System.Windows.Forms.TextBox();
+            this.txtCabi = new System.Windows.Forms.TextBox();
             this.Calendario1 = new System.Windows.Forms.MonthCalendar();
             this.btnCalendario = new System.Windows.Forms.Button();
             this.txtData = new System.Windows.Forms.TextBox();
-            this.label16 = new System.Windows.Forms.Label();
             this.txtPreco = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // txtCar
+            // txtAlt
             // 
-            this.txtCar.Location = new System.Drawing.Point(362, 220);
-            this.txtCar.Name = "txtCar";
-            this.txtCar.Size = new System.Drawing.Size(100, 20);
-            this.txtCar.TabIndex = 62;
+            this.txtAlt.Location = new System.Drawing.Point(362, 220);
+            this.txtAlt.Name = "txtAlt";
+            this.txtAlt.Size = new System.Drawing.Size(100, 20);
+            this.txtAlt.TabIndex = 62;
             // 
-            // txtCapaPor
+            // txtCap
             // 
-            this.txtCapaPor.Location = new System.Drawing.Point(399, 261);
-            this.txtCapaPor.Name = "txtCapaPor";
-            this.txtCapaPor.Size = new System.Drawing.Size(100, 20);
-            this.txtCapaPor.TabIndex = 61;
+            this.txtCap.Location = new System.Drawing.Point(399, 261);
+            this.txtCap.Name = "txtCap";
+            this.txtCap.Size = new System.Drawing.Size(100, 20);
+            this.txtCap.TabIndex = 61;
             // 
-            // txtNumPortas
+            // txtNumRod
             // 
-            this.txtNumPortas.Location = new System.Drawing.Point(174, 261);
-            this.txtNumPortas.Name = "txtNumPortas";
-            this.txtNumPortas.Size = new System.Drawing.Size(100, 20);
-            this.txtNumPortas.TabIndex = 60;
+            this.txtNumRod.Location = new System.Drawing.Point(174, 261);
+            this.txtNumRod.Name = "txtNumRod";
+            this.txtNumRod.Size = new System.Drawing.Size(100, 20);
+            this.txtNumRod.TabIndex = 60;
             // 
-            // txtNumPassa
+            // txtTipoCarg
             // 
-            this.txtNumPassa.Location = new System.Drawing.Point(183, 220);
-            this.txtNumPassa.Name = "txtNumPassa";
-            this.txtNumPassa.Size = new System.Drawing.Size(100, 20);
-            this.txtNumPassa.TabIndex = 59;
+            this.txtTipoCarg.Location = new System.Drawing.Point(183, 220);
+            this.txtTipoCarg.Name = "txtTipoCarg";
+            this.txtTipoCarg.Size = new System.Drawing.Size(100, 20);
+            this.txtTipoCarg.TabIndex = 59;
             // 
             // label11
             // 
@@ -101,9 +101,9 @@
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(85, 221);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(140, 15);
+            this.label11.Size = new System.Drawing.Size(84, 15);
             this.label11.TabIndex = 58;
-            this.label11.Text = "Número de Passageiros";
+            this.label11.Text = "Tipo de Carga";
             // 
             // label14
             // 
@@ -111,9 +111,9 @@
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(297, 262);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(159, 15);
+            this.label14.Size = new System.Drawing.Size(73, 15);
             this.label14.TabIndex = 57;
-            this.label14.Text = "Capacidade do porta-malas";
+            this.label14.Text = "Capacidade";
             // 
             // label13
             // 
@@ -121,19 +121,19 @@
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(85, 262);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(138, 15);
+            this.label13.Size = new System.Drawing.Size(108, 15);
             this.label13.TabIndex = 56;
-            this.label13.Text = "Número de Porta Malas";
+            this.label13.Text = "Numero de Rodas";
             // 
-            // label12
+            // Altura
             // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.Location = new System.Drawing.Point(312, 221);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(64, 15);
-            this.label12.TabIndex = 55;
-            this.label12.Text = "Carroceria";
+            this.Altura.AutoSize = true;
+            this.Altura.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Altura.Location = new System.Drawing.Point(312, 221);
+            this.Altura.Name = "Altura";
+            this.Altura.Size = new System.Drawing.Size(38, 15);
+            this.Altura.TabIndex = 55;
+            this.Altura.Text = "Altura";
             // 
             // txtPlaca
             // 
@@ -218,6 +218,7 @@
             this.btnExibir.TabIndex = 43;
             this.btnExibir.Text = "Exibir";
             this.btnExibir.UseVisualStyleBackColor = true;
+            this.btnExibir.Click += new System.EventHandler(this.btnExibir_Click);
             // 
             // btnCadastrar
             // 
@@ -228,6 +229,7 @@
             this.btnCadastrar.TabIndex = 42;
             this.btnCadastrar.Text = "Cadastrar";
             this.btnCadastrar.UseVisualStyleBackColor = true;
+            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
             // label10
             // 
@@ -335,16 +337,16 @@
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(528, 262);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(108, 15);
+            this.label15.Size = new System.Drawing.Size(90, 15);
             this.label15.TabIndex = 63;
-            this.label15.Text = "Número de Rodas";
+            this.label15.Text = "Tipo de Cabine";
             // 
-            // txtNumRodas
+            // txtCabi
             // 
-            this.txtNumRodas.Location = new System.Drawing.Point(652, 261);
-            this.txtNumRodas.Name = "txtNumRodas";
-            this.txtNumRodas.Size = new System.Drawing.Size(100, 20);
-            this.txtNumRodas.TabIndex = 64;
+            this.txtCabi.Location = new System.Drawing.Point(652, 261);
+            this.txtCabi.Name = "txtCabi";
+            this.txtCabi.Size = new System.Drawing.Size(100, 20);
+            this.txtCabi.TabIndex = 64;
             // 
             // Calendario1
             // 
@@ -371,22 +373,22 @@
             this.txtData.Size = new System.Drawing.Size(100, 20);
             this.txtData.TabIndex = 67;
             // 
+            // txtPreco
+            // 
+            this.txtPreco.Location = new System.Drawing.Point(174, 300);
+            this.txtPreco.Name = "txtPreco";
+            this.txtPreco.Size = new System.Drawing.Size(100, 20);
+            this.txtPreco.TabIndex = 106;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.Location = new System.Drawing.Point(85, 299);
+            this.label16.Location = new System.Drawing.Point(98, 306);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(39, 15);
-            this.label16.TabIndex = 68;
+            this.label16.TabIndex = 105;
             this.label16.Text = "Preço";
-            // 
-            // txtPreco
-            // 
-            this.txtPreco.Location = new System.Drawing.Point(161, 293);
-            this.txtPreco.Name = "txtPreco";
-            this.txtPreco.Size = new System.Drawing.Size(100, 20);
-            this.txtPreco.TabIndex = 69;
             // 
             // frmCaminhao
             // 
@@ -398,16 +400,16 @@
             this.Controls.Add(this.txtData);
             this.Controls.Add(this.btnCalendario);
             this.Controls.Add(this.Calendario1);
-            this.Controls.Add(this.txtNumRodas);
+            this.Controls.Add(this.txtCabi);
             this.Controls.Add(this.label15);
-            this.Controls.Add(this.txtCar);
-            this.Controls.Add(this.txtCapaPor);
-            this.Controls.Add(this.txtNumPortas);
-            this.Controls.Add(this.txtNumPassa);
+            this.Controls.Add(this.txtAlt);
+            this.Controls.Add(this.txtCap);
+            this.Controls.Add(this.txtNumRod);
+            this.Controls.Add(this.txtTipoCarg);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.label12);
+            this.Controls.Add(this.Altura);
             this.Controls.Add(this.txtPlaca);
             this.Controls.Add(this.txtCor);
             this.Controls.Add(this.txtChassi);
@@ -440,14 +442,14 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtCar;
-        private System.Windows.Forms.TextBox txtCapaPor;
-        private System.Windows.Forms.TextBox txtNumPortas;
-        private System.Windows.Forms.TextBox txtNumPassa;
+        private System.Windows.Forms.TextBox txtAlt;
+        private System.Windows.Forms.TextBox txtCap;
+        private System.Windows.Forms.TextBox txtNumRod;
+        private System.Windows.Forms.TextBox txtTipoCarg;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label Altura;
         private System.Windows.Forms.TextBox txtPlaca;
         private System.Windows.Forms.TextBox txtCor;
         private System.Windows.Forms.TextBox txtChassi;
@@ -471,11 +473,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox txtNumRodas;
+        private System.Windows.Forms.TextBox txtCabi;
         private System.Windows.Forms.MonthCalendar Calendario1;
         private System.Windows.Forms.Button btnCalendario;
         private System.Windows.Forms.TextBox txtData;
-        private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtPreco;
+        private System.Windows.Forms.Label label16;
     }
 }
