@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.btnSair = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastrosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCarro = new System.Windows.Forms.ToolStripMenuItem();
             this.btnCaminhao = new System.Windows.Forms.ToolStripMenuItem();
-            this.btnSair = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,6 +47,14 @@
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
+            // btnSair
+            // 
+            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSair.Name = "btnSair";
+            this.btnSair.Size = new System.Drawing.Size(49, 25);
+            this.btnSair.Text = "Sair";
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            // 
             // cadastrosToolStripMenuItem
             // 
             this.cadastrosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -60,24 +68,16 @@
             // btnCarro
             // 
             this.btnCarro.Name = "btnCarro";
-            this.btnCarro.Size = new System.Drawing.Size(180, 26);
+            this.btnCarro.Size = new System.Drawing.Size(151, 26);
             this.btnCarro.Text = "Carro";
             this.btnCarro.Click += new System.EventHandler(this.btnCarro_Click);
             // 
             // btnCaminhao
             // 
             this.btnCaminhao.Name = "btnCaminhao";
-            this.btnCaminhao.Size = new System.Drawing.Size(180, 26);
+            this.btnCaminhao.Size = new System.Drawing.Size(151, 26);
             this.btnCaminhao.Text = "Caminhão";
             this.btnCaminhao.Click += new System.EventHandler(this.btnCaminhao_Click);
-            // 
-            // btnSair
-            // 
-            this.btnSair.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSair.Name = "btnSair";
-            this.btnSair.Size = new System.Drawing.Size(49, 25);
-            this.btnSair.Text = "Sair";
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
             // 
             // frmMenu
             // 
@@ -87,6 +87,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMenu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MenuPrincipal";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
