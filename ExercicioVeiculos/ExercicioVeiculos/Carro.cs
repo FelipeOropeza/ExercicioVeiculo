@@ -53,7 +53,7 @@ namespace ExercicioVeiculos
             get { return numport; }
             set { numport = value; }
         }
-        public string CapaPort
+        public String CapaPort
         {
             get { return capaport; }
             set { capaport = value; }
@@ -62,7 +62,7 @@ namespace ExercicioVeiculos
         public override string ImprimeDados()
         {
             String s = String.Empty;
-            s = String.Concat("Marca: " + this.Marca, "\n", "Tipo do Combustível: " + this.TipoCombu, "\n", "Potência: " + this.Poten, "\n", "Peso: " + this.Peso, "\n", "Placa: " + this.Placa, "\n", "Preço: R$" + this.Preco, "\n", "Câmbio: " + this.Cambio,
+            s = String.Concat("Marca: " + this.Marca, "\n", "Tipo do Combustível: " + this.TipoCombu, "\n", "Potência: " + this.Poten, "\n", "Peso: " + this.Peso, "\n", "Placa: " + this.Placa, "\n", "Preço: R$" + this.Preco, "\n", "Câmbio: " + this.Cambio, "\n",
                 "Autonomia: " + this.Auto, "\n", "Data de Fabricação: " + this.Datafab, "\n", "Cor: " + this.Cor, "\n", "Chassi: " + this.Chassi, "\n", "Número de Passageiros: " + this.NumPassa, "\n", "Carroceria: " + this.Carroce, "\n", "Número de Portas: " + this.NumPort, "\n", "Capacidade do Porta-Malas: " + this.CapaPort);
             return s;
         }
