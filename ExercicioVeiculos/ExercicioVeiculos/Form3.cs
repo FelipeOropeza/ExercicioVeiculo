@@ -25,11 +25,6 @@ namespace ExercicioVeiculos
             Calendario1.Visible = true;
         }
 
-        private void frmCaminhao_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void Calendario1_DateChanged(object sender, DateRangeEventArgs e)
         {
             txtData.Text = Calendario1.SelectionStart.ToShortDateString();
@@ -63,17 +58,11 @@ namespace ExercicioVeiculos
             txtNumRod.Clear();
             txtCap.Clear();
             txtCabi.Clear();
-            //teste
         }
 
         private void btnExibir_Click(object sender, EventArgs e)
         {
             MessageBox.Show(caminhao.ImprimeDados());
         }
-
-        private void label15_Click(object sender, EventArgs e)
-        {
-
         }
     }
-}
