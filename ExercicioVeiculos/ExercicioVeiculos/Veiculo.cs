@@ -8,6 +8,7 @@ namespace ExercicioVeiculos
 {
     public abstract class Veiculo
     {
+        // Criando as variaveis
         private string marca;
         private string tipocombu;
         private string poten;
@@ -20,6 +21,7 @@ namespace ExercicioVeiculos
         private string cor;
         private string chassi;
 
+        // Instanciano as variaveis sem parametros
         public Veiculo()
         {
             this.marca = null;
@@ -34,6 +36,8 @@ namespace ExercicioVeiculos
             this.cor = null;
             this.chassi = null;
         }
+
+        // Instanciano as variaveis com parametros
         public Veiculo(string marca, string tipocombu, string poten, string peso, string placa, string preco, 
             string cambio, string auto, string datafab, string cor, string chassi)
         {
@@ -50,6 +54,7 @@ namespace ExercicioVeiculos
             this.chassi = chassi;
         }
 
+        // Aplicando os get e set nas variaveis
         public String Marca
         {
             get { return marca; }
@@ -106,6 +111,7 @@ namespace ExercicioVeiculos
             set { chassi = value; }
         }
 
+        // Aplicando o método ImpimeDados
         public abstract String ImprimeDados();
     }
 }

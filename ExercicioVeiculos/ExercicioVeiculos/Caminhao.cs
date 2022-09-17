@@ -8,12 +8,14 @@ namespace ExercicioVeiculos
 {
     internal class Caminhao: Veiculo
     {
+        // Criando as variaveis
         private string tipocarga;
         private string altura;
         private string numrodas;
         private string capacidade;
         private string tipocabines;
 
+        // Instanciano as variaveis sem parametros
         public Caminhao()
         {
             this.tipocarga = null;
@@ -23,6 +25,7 @@ namespace ExercicioVeiculos
             this.tipocabines = null;
         }
 
+        // Instanciano as variaveis com parametros
         public Caminhao(string marca, string tipocombu, string poten, string peso, string placa, string preco,
             string cambio, string auto, string datafab, string cor, string chassi, string tipocarga, string altura,
             string numrodas, string capacidade, string tipocabines) {
@@ -44,6 +47,8 @@ namespace ExercicioVeiculos
             this.Capacidade = capacidade;
             this.Tipocabines = tipocabines;
         }
+
+        // Aplicando os get e set nas variaveis
         public String Tipocarga
         {
             get { return this.tipocarga; }
@@ -69,6 +74,8 @@ namespace ExercicioVeiculos
             get { return this.tipocabines; }
             set { this.tipocabines = value; }
         }
+
+        // Faz a concatenacão das variaveis e retorna para o ImprimeDados
         public override string ImprimeDados()
         {
             String s = String.Empty;

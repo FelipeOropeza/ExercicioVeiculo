@@ -8,17 +8,21 @@ namespace ExercicioVeiculos
 {
     public class Carro : Veiculo
     {
+        // Criando as variaveis
         private string numpassa;
         private string carroce;
         private string numport;
         private string capaport;
 
+        // Instanciano as variaveis sem parametros
         public Carro(){
             this.numpassa = null;
             this.carroce = null;
             this.numport = null;
             this.capaport = null;
         }
+
+        // Instanciano as variaveis com parametros
         public Carro(string marca, string tipocombu, string poten, string peso, string placa, string preco,
             string cambio, string auto, string datafab, string cor, string chassi, string numpassa, string carroce, string numport, string capaport)
         {
@@ -38,6 +42,8 @@ namespace ExercicioVeiculos
             this.NumPort = numport;
             this.CapaPort = capaport;
         }
+
+        // Aplicando os get e set nas variaveis
         public String NumPassa
         {
             get { return numpassa; }
@@ -59,6 +65,7 @@ namespace ExercicioVeiculos
             set { capaport = value; }
         }
 
+        // Faz a concatenacão das variaveis e retorna para o ImprimeDados
         public override string ImprimeDados()
         {
             String s = String.Empty;
