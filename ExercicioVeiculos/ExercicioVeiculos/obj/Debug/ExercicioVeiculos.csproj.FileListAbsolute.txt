@@ -50,3 +50,13 @@ D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculos\Exercici
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.CoreCompileInputs.cache
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.exe
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.pdb
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.AssemblyReference.cache
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.SuggestedBindingRedirects.cache
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmMenu.resources
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmCarro.resources
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.frmCaminhao.resources
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.Properties.Resources.resources
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.GenerateResource.cache
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.CoreCompileInputs.cache
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.exe
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.pdb

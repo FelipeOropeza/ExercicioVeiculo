@@ -1,4 +1,6 @@
-﻿namespace ExercicioVeiculos
+﻿using System;
+
+namespace ExercicioVeiculos
 {
     partial class frmCaminhao
     {
@@ -509,5 +511,6 @@
         private System.Windows.Forms.TextBox txtPreco;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label label12;
+        private EventHandler frmCaminhao_Load;
     }
 }
