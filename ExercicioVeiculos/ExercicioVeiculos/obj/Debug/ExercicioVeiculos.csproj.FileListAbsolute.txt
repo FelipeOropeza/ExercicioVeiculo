@@ -60,3 +60,6 @@ D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\Exercicio
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.csproj.CoreCompileInputs.cache
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.exe
 D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\obj\Debug\ExercicioVeiculos.pdb
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.exe.config
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.exe
+D:\FELIPE ETEC\Materia\2ª Série\DS\ExercicioVeiculo\ExercicioVeiculo\ExercicioVeiculos\ExercicioVeiculos\bin\Debug\ExercicioVeiculos.pdb

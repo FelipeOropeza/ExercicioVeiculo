@@ -161,7 +161,7 @@ namespace ExercicioVeiculos
             // txtChassi
             // 
             this.txtChassi.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtChassi.Location = new System.Drawing.Point(462, 117);
+            this.txtChassi.Location = new System.Drawing.Point(462, 72);
             this.txtChassi.Name = "txtChassi";
             this.txtChassi.Size = new System.Drawing.Size(100, 25);
             this.txtChassi.TabIndex = 51;
@@ -201,7 +201,7 @@ namespace ExercicioVeiculos
             // txtPot
             // 
             this.txtPot.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPot.Location = new System.Drawing.Point(462, 72);
+            this.txtPot.Location = new System.Drawing.Point(462, 157);
             this.txtPot.Name = "txtPot";
             this.txtPot.Size = new System.Drawing.Size(100, 25);
             this.txtPot.TabIndex = 46;
@@ -267,7 +267,7 @@ namespace ExercicioVeiculos
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(338, 120);
+            this.label9.Location = new System.Drawing.Point(338, 75);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(118, 17);
             this.label9.TabIndex = 40;
@@ -277,7 +277,7 @@ namespace ExercicioVeiculos
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(353, 161);
+            this.label8.Location = new System.Drawing.Point(353, 122);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(103, 17);
             this.label8.TabIndex = 39;
@@ -327,7 +327,7 @@ namespace ExercicioVeiculos
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(396, 75);
+            this.label3.Location = new System.Drawing.Point(396, 161);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(60, 17);
             this.label3.TabIndex = 34;
@@ -364,7 +364,7 @@ namespace ExercicioVeiculos
             // Calendario1
             // 
             this.Calendario1.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Calendario1.Location = new System.Drawing.Point(574, 101);
+            this.Calendario1.Location = new System.Drawing.Point(574, 157);
             this.Calendario1.Name = "Calendario1";
             this.Calendario1.TabIndex = 65;
             this.Calendario1.Visible = false;
@@ -375,7 +375,7 @@ namespace ExercicioVeiculos
             this.btnCalendario.BackColor = System.Drawing.Color.FloralWhite;
             this.btnCalendario.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCalendario.ForeColor = System.Drawing.Color.Teal;
-            this.btnCalendario.Location = new System.Drawing.Point(574, 154);
+            this.btnCalendario.Location = new System.Drawing.Point(574, 116);
             this.btnCalendario.Name = "btnCalendario";
             this.btnCalendario.Size = new System.Drawing.Size(87, 29);
             this.btnCalendario.TabIndex = 66;
@@ -386,7 +386,7 @@ namespace ExercicioVeiculos
             // txtData
             // 
             this.txtData.Font = new System.Drawing.Font("Yu Gothic UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtData.Location = new System.Drawing.Point(462, 155);
+            this.txtData.Location = new System.Drawing.Point(462, 119);
             this.txtData.Name = "txtData";
             this.txtData.Size = new System.Drawing.Size(100, 25);
             this.txtData.TabIndex = 67;
@@ -466,7 +466,6 @@ namespace ExercicioVeiculos
             this.Name = "frmCaminhao";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro Caminhão";
-            this.Load += new System.EventHandler(this.frmCaminhao_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
